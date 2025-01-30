@@ -1,1 +1,3 @@
 # EIT_gesture_dataset
+
+This is an American Sign Language from 0-9 dataset based on an 8-electrode EIT on the arm. The excitation frequency is 50kHz, the current is 1.81mA, and the measurement circuit is based on a MAX30009 chip and a CH74HC4067 multiplexer. The data type is txt, the total number of arrays is 3000 (300 per gesture), and each txt file consists of 256 rows and 1 column of data, 1: 64 rows for the resistance value of the relaxed gesture; 65: 128 rows for the resistance value of the digital gesture when it is made; 129: 192 rows for the reactance value under the relaxed gesture, and 193: 256 rows for the reactance value of the digital gesture when it is made.
